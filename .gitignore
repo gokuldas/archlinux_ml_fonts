@@ -3,3 +3,6 @@ PKGBUILD
 *.install
 *.ttf
 *.conf
+*.tar.xz
+pkg/*
+
