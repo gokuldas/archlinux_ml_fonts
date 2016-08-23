@@ -1,0 +1,24 @@
+# PKGBUILD for installing latest SMC malayalam fonts
+# Modified on: 23 August 2016
+
+# Maintainer: Gokul Das B <gokuldas.dev@gmail.com>
+pkgname=ttf-malayalam-smc-fonts
+pkgver=0.1.0+20160823
+pkgrel=1
+pkgdesc="The set of all open source Malayalam fonts by SMC"
+license=('SIL Open Font License')
+arch=(any)
+url="http://smc.org.in/fonts/"
+depends=(fontconfig xorg-font-utils)
+source=(SRC_URLS)
+
+md5sums=(MD5_SUMS)
+
+install=$pkgname.install
+
+package() {
+  mkdir -p "${pkgdir}/usr/share/fonts/TTF"
+  install -Dm644 *.ttf "${pkgdir}/usr/share/fonts/TTF"
+  mkdir -p "${pkgdir}/etc/fonts/conf.d"
+  install -Dm644 *.conf "${pkgdir}/etc/fonts/conf.d"
+}
