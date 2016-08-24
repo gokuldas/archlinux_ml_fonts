@@ -1,4 +1,4 @@
-# archlinux_ml_fonts
+# Arch Linux Malayalam Fonts (archlinux_ml_fonts)
 Arch Linux PKGBUILD generator for installing SMC's Malayalam fonts. A python script (generate.py) generates the PKGBUILD and *.install file necessary to install [SMC's](https://smc.org.in/fonts/) malayalam fonts.
 
 ## Installation & Usage
@@ -22,7 +22,7 @@ This will generate the required PKGBUILD and *.install file. Further, do the usu
 > pacman -U pkgname.pkg.tar.gz
 
 ## Credits
-[Swatanthra Malayalam Computing](https://smc.org.in/) MC team for fonts and Fedora team for fontconfig files.
+[Swatanthra Malayalam Computing](https://smc.org.in/) team for fonts and Fedora team for fontconfig files.
 
 ## License
 All the contents of this repository are under MIT license.
