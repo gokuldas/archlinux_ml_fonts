@@ -24,17 +24,17 @@ at https://gitlab.com/groups/smc.
 
 1. Open a terminal, cd to the cloned folder and run:
 
-    ```
-    ./generate.py
-    ```
+```
+./generate.py
+```
 
 This will generate the required PKGBUILD and *.install file. Further, do the
 usual step in generating and installing arch package:
 
-    ```
-    makepkg  
-    pacman -U pkgname.pkg.tar.gz
-    ```
+```
+makepkg  
+pacman -U pkgname.pkg.tar.gz
+```
 
 ## Credits
 [Swatanthra Malayalam Computing](https://smc.org.in/) team for fonts and Fedora
